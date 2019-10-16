@@ -15,8 +15,5 @@ export default {
     { sourcemap: true, name: outputName, file: pkg.module, format: "es" }
   ],
   plugins: [typescript(), resolve(), commonjs()],
-  external: [
-    ...Object.keys(pkg.dependencies || {}),
-    ...Object.keys(pkg.peerDependencies || {})
-  ]
+  external: [...Object.keys(pkg.peerDependencies || {})]
 };

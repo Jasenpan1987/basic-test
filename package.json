@@ -34,7 +34,7 @@
     "@types/react-dom": "^16.9.2"
   },
   "dependencies": {
-    "mypluralize": "git+https://github.com/philipszdavido/mypluralize.git",
+    "left-pad": "^1.3.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
