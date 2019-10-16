@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": false
+        }
+      }
+    ],
+    "@babel/typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/external-helpers"]
+}
