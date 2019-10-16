@@ -1,12 +1,5 @@
 import React from 'react';
 
-const Footer = ({ name, age }) => {
-    return (React.createElement("div", null,
-        React.createElement("h2", null, "Footer"),
-        React.createElement("h3", null, name),
-        React.createElement("h3", null, age)));
-};
-
 /* This program is free software. It comes without any warranty, to
      * the extent permitted by applicable law. You can redistribute it
      * and/or modify it under the terms of the Do What The Fuck You Want
@@ -59,6 +52,13 @@ function leftPad (str, len, ch) {
   return pad + str;
 }
 
+const Footer = ({ name, age }) => {
+    return (React.createElement("div", null,
+        React.createElement("h2", null, "Footer"),
+        React.createElement("h3", null, name),
+        React.createElement("h3", null, age)));
+};
+
 const Header = ({ foo, bar }) => {
     return (React.createElement("div", null,
         React.createElement("h2", null,
@@ -71,5 +71,5 @@ const Header = ({ foo, bar }) => {
             bar)));
 };
 
-export { Footer, Header };
+export { Footer, Header, leftPad_1 as leftPad };
 //# sourceMappingURL=index.esm.js.map
