@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "build:types": "tsc --emitDeclarationOnly"
