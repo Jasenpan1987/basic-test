@@ -13,11 +13,9 @@ import { outlinedInput } from "./outlinedInput";
 import { formHelperText } from "./formHelperText";
 import { inputLabel } from "./inputLabel";
 
-interface _ITheme extends Theme {
+export interface ITheme extends Theme {
   palette: ICustomPalette;
 }
-
-export type ITheme = _ITheme;
 
 const createCustomizedTheme = (options: ThemeOptions) => {
   const theme = createMuiTheme({
